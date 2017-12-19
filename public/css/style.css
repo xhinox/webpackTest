@@ -1,0 +1,35 @@
+body {
+    background-color: lightblue;
+    margin:0px;
+    padding:0px;
+}
+
+.container {
+    background-color: rgba(255,255,255,.9);
+    border-radius: 5px;
+    flex-flow: column;
+    height: 300px;
+    justify-content: space-around;
+    margin: 20px auto;
+    padding: 20px;
+    width: 400px;
+}
+
+.row.buttons {
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.user-btn {
+    background-color: orange;
+    border-radius: 50%;
+    border:0px;
+    color: white;
+    padding:16px 20px;
+}
+
+.u-flex {
+    display: flex;
+}

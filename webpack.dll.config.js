@@ -17,6 +17,11 @@ module.exports = {
         library: '[name]'
     },
     plugins: [
+        new webpack.ProvidePlugin({
+			$: 'jquery',
+			jQuery: 'jquery',
+			'window.jQuery': 'jquery',
+		}),
         new webpack.DllPlugin({
             name: '[name]',
             path: path.join(__dirname, '[name]-manifest.json')

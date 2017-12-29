@@ -57,7 +57,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/Users/xhino/Documents/example/public/js/";
+/******/ 	__webpack_require__.p = "C:\\Users\\webDev\\Documents\\GitHub\\webpackTest\\public/js/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 1);
@@ -138,7 +138,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 /* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(0))(121);
+module.exports = (__webpack_require__(0))(1);
 
 /***/ }),
 /* 4 */
